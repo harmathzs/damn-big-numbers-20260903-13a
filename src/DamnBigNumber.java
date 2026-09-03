@@ -6,4 +6,9 @@ public class DamnBigNumber {
     public String getNumber() {
         return number;
     }
+    @Override
+    public String toString() {
+        return "DamnBigNumber: " + number;
+
+    }
 }
